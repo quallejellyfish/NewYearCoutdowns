@@ -75,6 +75,11 @@ html[data-theme='dark'] {
     color: var(--text-color-light);
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 1.3rem;
+    }
+}
 .content,
 .header {
     padding: var(--the-number);
@@ -146,4 +151,5 @@ a:hover {
     * {
         color: black;
     }
+
 }
